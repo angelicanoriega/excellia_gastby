@@ -1,0 +1,38 @@
+html body.admin-menu,
+body.admin-menu {
+    margin-top: 0 !important;
+}
+
+#admin-menu {
+    display: none;
+}
+
+.drupal-edit {
+    background-color: black;
+}
+
+.drupal-edit .tabs.primary {
+    margin-bottom: 1px;
+    border-bottom: 0;
+}
+
+.drupal-edit .tabs.primary li {
+    display: inline-flex;
+}
+
+.drupal-edit .tabs.primary a {
+    border: 0;
+    color: white;
+    background-color: transparent;
+    font-size: .7rem;
+    padding: .2rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.drupal-edit .tabs.primary a:hover {
+    text-decoration: underline;
+}
+body.admin-menu.adminimal-menu:before{
+    height: 0 !important;
+}
